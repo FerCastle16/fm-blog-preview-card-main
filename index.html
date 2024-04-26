@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- displays site properly based on user's device -->
-
+    <link rel="stylesheet" href="style.css">
     <link
       rel="icon"
       type="image/png"
@@ -19,125 +19,6 @@
     />
     <title>Frontend Mentor | Blog preview card</title>
 
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      body,
-      html {
-        background-color: hsl(47, 88%, 63%);
-        height: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
-
-      .attribution {
-        font-family: "Figtree", sans-serif;
-        font-size: 12px;
-        position: absolute;
-        bottom: 12px;
-      }
-
-      a {
-        color: #000;
-        font-weight: 700;
-        text-decoration: none;
-        cursor: pointer;
-      }
-
-      .card {
-        background-color: white;
-        width: 384px;
-        height: 100%;
-        padding: 24px;
-        border-radius: 20px;
-        box-shadow: 8px 8px 0 0 #000;
-        box-sizing: border-box;
-        justify-content: center;
-        transition: box-shadow 0.3s ease;
-        pointer-events: none;
-      }
-
-      .card:hover {
-        box-shadow: 16px 16px 0 0 #000;
-      }
-
-      .card-content{
-        margin-top: 24px;
-        font-family: "Figtree", sans-serif;
-      }
-
-      .card-image {
-        border-radius: 10px;
-      }
-
-      .blog-tag {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: hsl(47, 88%, 63%);
-        width: 82px;
-        height: 29px;
-        border-radius: 4px;
-        font-size: 14px;
-        font-weight: bold;
-        @media (max-width: 640px) {
-          font-size: 12px;
-        }
-      }
-
-      .blog-date {
-        font-weight: 500;
-        font-size: 14px;
-        margin-top: 12px;
-        line-height: 150%;
-        color: hsl(0, 0%, 7%);
-        @media (max-width: 640px) {
-          font-size: 12px;
-        }
-      }
-
-      .blog-title {
-        font-weight: 800;
-        font-size: 24px;
-        margin-top: 12px;
-        width: fit-content;
-        pointer-events: all;
-        @media (max-width: 640px) {
-          font-size: 20px;
-        }
-      }
-
-      .blog-desc {
-        font-weight: 500;
-        font-size: 16px;
-        margin-top: 12px;
-        color: hsl(0, 0%, 50%);
-        @media (max-width: 640px) {
-          font-size: 14px;
-        }
-      }
-
-      .card-publisher {
-        display: flex;
-        align-items: center;
-        margin-top: 24px;
-        font-family: "Figtree", sans-serif;
-      }
-
-      .publisher-name {
-        padding-left: 12px;
-        font-weight: 800;
-        font-size: 14px;
-        line-height: 150%;
-        color: hsl(0, 0%, 7%);
-      }
-      
-      .blog-title:hover {
-        color: hsl(47, 88%, 63%);
-        cursor: pointer;
-      }
-
-    </style>
   </head>
   <body>
     <main>
