@@ -10,7 +10,7 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 ### Links
 
-- Live Site URL: [Github Page](https://github.com/FerCastle16/fm-blog-preview-card-main)
+- Live Site URL: [Github Page](https://fercastle16.github.io/fm-blog-preview-card-main/)
 
 ## My process
 
